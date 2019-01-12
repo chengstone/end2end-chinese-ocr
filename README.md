@@ -44,3 +44,23 @@ This is end2end chinese ocr demo using CNN + BiLSTM + ctc_loss
 
 比如CNN的结构、CNN层数、filter size、卷积核的参数、隐节点的个数、输入数据的尺寸、批次大小、LSTM的种类、LSTM的层数等。
 
+运行命令python ocr.py进行训练
+
+识别图片：
+![image](https://github.com/chengstone/end2end-chinese-ocr/raw/master/newimg.png)
+
+识别结果：
+
+(1, 32, ?, 32)
+
+(1, 16, ?, 64)
+
+(1, 8, ?, 128)
+
+(1, 4, ?, 128)
+
+lstm input shape: [1, None, 512]
+
+Successfully loaded: ./models/best_model.ckpt-10160
+
+-------- prediction : ['滚', '滚', '长', '江', '东', '逝', '水', '浪', '花', '淘', '尽', '英', '雄'] --------
