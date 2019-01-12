@@ -8,7 +8,7 @@ This is end2end chinese ocr demo using CNN + BiLSTM + ctc_loss
 
 关于汉字字符集您可以参考这个网址：https://www.qqxiuzi.cn/zh/yijiziku-erjiziku.php
 
-为了得到更好的识别效果，建议您加入适当的数据增强（因为相关代码我已经从代码中删除了），包括适当缩小汉字的尺寸，以适应分辨率低的文字图像。
+为了得到更好的识别效果，建议您加入适当的数据增强，包括适当缩小汉字的尺寸，以适应分辨率低的文字图像。
 
 关于数据增强的入口，我已经在代码中预留了，您只要在imgaug_process函数中加入相应实现即可。
 
