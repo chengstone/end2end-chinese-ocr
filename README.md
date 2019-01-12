@@ -46,6 +46,9 @@ This is end2end chinese ocr demo using CNN + BiLSTM + ctc_loss
 
 运行命令python ocr.py进行训练
 
+生成的训练图片类似这种：
+![image](https://github.com/chengstone/end2end-chinese-ocr/raw/master/岸安氨胺挨.png)
+
 识别图片：
 ![image](https://github.com/chengstone/end2end-chinese-ocr/raw/master/newimg.png)
 
