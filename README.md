@@ -1,3 +1,4 @@
+<a href="https://996.icu"><img src="https://img.shields.io/badge/link-996.icu-red.svg"></a>
 # end2end-chinese-ocr
 This is end2end chinese ocr demo using CNN + BiLSTM + ctc_loss
 
@@ -67,3 +68,6 @@ lstm input shape: [1, None, 512]
 Successfully loaded: ./models/best_model.ckpt-10160
 
 -------- prediction : ['滚', '滚', '长', '江', '东', '逝', '水', '浪', '花', '淘', '尽', '英', '雄'] --------
+
+# 许可
+Licensed under the MIT License with the [`996ICU License`](https://github.com/996icu/996.ICU/blob/master/LICENSE).
